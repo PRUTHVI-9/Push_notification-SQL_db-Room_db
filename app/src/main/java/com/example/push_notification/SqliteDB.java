@@ -16,8 +16,7 @@ public class SqliteDB extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase DB) {
         DB.execSQL ("CREATE TABLE Userdetails(name TEXT primary key, contact TEXT, dob TEXT)");
-
-
+        
     }
 
     @Override

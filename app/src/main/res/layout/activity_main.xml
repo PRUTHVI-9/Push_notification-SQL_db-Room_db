@@ -14,12 +14,14 @@
 
 
     <TextView
+        android:layout_marginTop="30dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Please enter below details"
         android:textSize="30dp"
         android:textStyle="bold"
         android:textColor="@android:color/holo_orange_light"/>
+
 
     <EditText
         android:layout_marginTop="130dp"
@@ -76,6 +78,16 @@
         android:layout_marginLeft="20dp"
         android:layout_height="wrap_content"
         android:text="view"/>
+    <Button
+        android:id="@+id/next"
+        android:layout_marginTop="30dp"
+        android:background="#03A9F4"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_height="wrap_content"
+        android:text="next"/>
 
     </LinearLayout>
 

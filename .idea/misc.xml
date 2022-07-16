@@ -3,7 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/pruth/AndroidStudioProjects/Push_Notification/app/src/main/res/drawable/ic_baseline_contacts_24.xml" value="0.1" />
+        <entry key="..\:/Users/pruth/AndroidStudioProjects/Push_Notification/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1455" />
+        <entry key="..\:/Users/pruth/AndroidStudioProjects/Push_Notification/app/src/main/res/drawable/ic_baseline_message_24.xml" value="0.1455" />
         <entry key="..\:/Users/pruth/AndroidStudioProjects/Push_Notification/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pruth/AndroidStudioProjects/Push_Notification/app/src/main/res/layout/activity_test.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pruth/AndroidStudioProjects/Push_Notification/app/src/main/res/layout/fragment_page1.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/pruth/AndroidStudioProjects/Push_Notification/app/src/main/res/layout/fragment_page2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pruth/AndroidStudioProjects/Push_Notification/app/src/main/res/layout/fragment_page3.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>

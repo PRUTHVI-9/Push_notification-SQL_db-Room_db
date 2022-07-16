@@ -3,6 +3,7 @@ package com.example.push_notification;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.database.Cursor;
 import android.os.Build;
 import android.os.Bundle;
@@ -15,8 +16,9 @@ import com.google.firebase.messaging.FirebaseMessaging;
 
 public class MainActivity extends AppCompatActivity {
     EditText first,dob,last;
-    Button insert,update,delete,view;
+    Button insert,update,delete,view,next;
     SqliteDB db;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         update=findViewById(R.id.update);
         delete=findViewById(R.id.delete);
         view=findViewById(R.id.view);
+        next=findViewById(R.id.next);
         db = new SqliteDB(this);
 
         insert.setOnClickListener(new View.OnClickListener() {
@@ -90,6 +93,15 @@ public class MainActivity extends AppCompatActivity {
                 builder.setTitle("User Entries");
                 builder.setMessage(buffer.toString());
                 builder.show();
+            }
+        });
+
+        next.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,TestActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
